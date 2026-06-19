@@ -1,0 +1,1195 @@
+[
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 0,
+    "user_message": "Chào bạn, mình tên là DũngCT.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT.",
+    "tokens_used": 16,
+    "prompt_tokens": 62
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 1,
+    "user_message": "Mình ở Đà Nẵng và đang làm backend engineer cho startup AI.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI.",
+    "tokens_used": 32,
+    "prompt_tokens": 96
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 2,
+    "user_message": "Mình thích Python, AI ứng dụng và cà phê sữa đá.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI.",
+    "tokens_used": 32,
+    "prompt_tokens": 140
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 3,
+    "user_message": "Đồ uống yêu thích là cà phê sữa đá.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 42,
+    "prompt_tokens": 181
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 4,
+    "user_message": "Mình thường chạy bộ lúc 6 giờ sáng để tỉnh táo hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 40,
+    "prompt_tokens": 235
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 5,
+    "user_message": "Mình muốn bạn trả lời ngắn gọn, rõ ý và có ví dụ thực tế.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 295
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 6,
+    "user_message": "Tuần này mình đang ôn lại async Python.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 357
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 7,
+    "user_message": "Cuối tuần mình hay đi biển Mỹ Khê chụp ảnh.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 420
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 8,
+    "user_message": "Mục tiêu học tập quý này là xây được agent nhớ người dùng tốt hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 489
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-01",
+    "turn_index": 9,
+    "user_message": "Bạn thử ghi nhớ các thông tin trên giúp mình nhé.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 554
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-01",
+    "question": "Mình tên gì và đồ uống yêu thích là gì?",
+    "expected_contains": [
+      "DũngCT",
+      "cà phê sữa đá"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn, rõ ý và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "found": [
+      "DũngCT",
+      "cà phê sữa đá"
+    ],
+    "missed": [],
+    "recall_score": 1.0,
+    "quality_score": 1.0,
+    "tokens_used": 56,
+    "prompt_tokens": 75
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 0,
+    "user_message": "Hôm nay mình quay lại sau một buổi họp dài.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: ngắn gọn, rõ ý và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 76
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 1,
+    "user_message": "Bạn có thể nhắc lại tên mình không?",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn, rõ ý và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 56,
+    "prompt_tokens": 137
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 2,
+    "user_message": "Ngoài ra mình muốn bạn nhớ luôn style trả lời mình thích.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn, rõ ý và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 56,
+    "prompt_tokens": 207
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 3,
+    "user_message": "Khi giải thích kỹ thuật, hãy trả lời thành bullet ngắn và có ví dụ thực tế.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 281
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 4,
+    "user_message": "Mình vẫn đang đọc về memory architecture cho agent.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 347
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 5,
+    "user_message": "Mình muốn benchmark dễ đọc hơn nên nếu có thể hãy giữ câu trả lời gọn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 418
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 6,
+    "user_message": "Chiều nay mình sẽ review lại data benchmark tiếng Việt.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 485
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 7,
+    "user_message": "Mình vẫn uống cà phê sữa đá như cũ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 547
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 8,
+    "user_message": "Bạn thử nhớ lại xem đồ uống yêu thích của mình là gì.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: thành bullet ngắn và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 57,
+    "prompt_tokens": 614
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-02",
+    "turn_index": 9,
+    "user_message": "Sau đó mình sẽ hỏi tiếp về nơi ở.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: thành bullet ngắn và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 57,
+    "prompt_tokens": 679
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-02",
+    "question": "Nhắc lại style trả lời mình thích và đồ uống yêu thích của mình.",
+    "expected_contains": [
+      "ngắn gọn",
+      "cà phê sữa đá"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: thành bullet ngắn và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "found": [
+      "cà phê sữa đá"
+    ],
+    "missed": [
+      "ngắn gọn"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 57,
+    "prompt_tokens": 82
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-02",
+    "question": "Tên mình là gì và mình thích kiểu trả lời như thế nào?",
+    "expected_contains": [
+      "DũngCT",
+      "ngắn gọn"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Đà Nẵng\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: thành bullet ngắn và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "found": [
+      "DũngCT"
+    ],
+    "missed": [
+      "ngắn gọn"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 57,
+    "prompt_tokens": 152
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 0,
+    "user_message": "Mình đang viết code Python cho benchmark agent.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Đà Nẵng, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 54,
+    "prompt_tokens": 77
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 1,
+    "user_message": "À, mình đính chính một chút: giờ mình đang ở Huế chứ không còn ở Đà Nẵng mỗi ngày nữa.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 151
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 2,
+    "user_message": "Mình vẫn làm việc từ xa với team cũ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 213
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 3,
+    "user_message": "Nếu bạn nhắc lại nơi ở thì nhớ lấy thông tin mới nhé.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: thành bullet ngắn và có ví dụ thực tế\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 56,
+    "prompt_tokens": 279
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 4,
+    "user_message": "Mình đang học thêm về RAG và evaluation.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: thành bullet ngắn và có ví dụ thực tế, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 345
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 5,
+    "user_message": "Mình muốn bạn trả lời ngắn gọn và có ví dụ thực chiến khi nói về AI.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 417
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 6,
+    "user_message": "Tối qua mình đọc tài liệu về memory compaction khá lâu.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 485
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 7,
+    "user_message": "Mình thích cách giải thích có so sánh trade-off hơn là nói lý thuyết chung chung.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 560
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 8,
+    "user_message": "Hôm nay mình sửa dataset để các cuộc hội thoại tự nhiên hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 630
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-03",
+    "turn_index": 9,
+    "user_message": "Bạn nhớ giúp mình là thông tin nơi ở đã thay đổi.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn và có ví dụ thực chiến khi nói về AI\n- **Favorite Drink**: là cà phê sữa đá",
+    "tokens_used": 58,
+    "prompt_tokens": 697
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-03",
+    "question": "Hiện tại mình đang ở đâu?",
+    "expected_contains": [
+      "Huế"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn và có ví dụ thực chiến khi nói về AI\n- **Favorite Drink**: là cà phê sữa đá",
+    "found": [
+      "Huế"
+    ],
+    "missed": [],
+    "recall_score": 1.0,
+    "quality_score": 1.0,
+    "tokens_used": 58,
+    "prompt_tokens": 73
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 0,
+    "user_message": "Ngoài kỹ thuật ra thì mình còn thích chạy bộ và nghe lo-fi buổi tối.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 84
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 1,
+    "user_message": "Món ăn yêu thích là mì Quảng.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: ngắn gọn và có ví dụ thực chiến khi nói về AI\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: mì Quảng",
+    "tokens_used": 65,
+    "prompt_tokens": 146
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 2,
+    "user_message": "Mình nuôi một bé corgi tên Bơ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 218
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 3,
+    "user_message": "Buổi sáng mình thường pha cà phê rồi đọc issue mới.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 285
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 4,
+    "user_message": "Nếu có dịp gợi ý nghỉ ngơi thì cứ nhắc mình đi bộ ven sông Hương.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: ngắn gọn và có ví dụ thực chiến khi nói về AI, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 356
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 5,
+    "user_message": "Mình không thích câu trả lời quá lan man, hãy trả lời ngắn gọn khi có thể.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 429
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 6,
+    "user_message": "Mỗi khi giải thích benchmark, bạn thử nêu thêm một ví dụ số liệu minh họa.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 502
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 7,
+    "user_message": "Mình thấy learning journal bằng markdown khá hợp với lab này.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 572
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 8,
+    "user_message": "Bạn có thể lưu những preference mang tính ổn định giúp mình.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 642
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-04",
+    "turn_index": 9,
+    "user_message": "Đặc biệt nhớ con corgi tên Bơ vì mình hay lấy ví dụ từ nó.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 711
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-04",
+    "question": "Món ăn yêu thích của mình là gì và mình nuôi con gì?",
+    "expected_contains": [
+      "mì Quảng",
+      "corgi"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: quá lan man, hãy trả lời ngắn gọn khi có thể\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "corgi"
+    ],
+    "missed": [
+      "mì Quảng"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 78,
+    "prompt_tokens": 86
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 0,
+    "user_message": "Bạn có biết DũngCT không?",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 79
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 1,
+    "user_message": "Nếu biết thì thử mô tả ngắn gọn mình là ai dựa trên những gì đã nhớ.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: quá lan man, hãy trả lời ngắn gọn khi có thể\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 78,
+    "prompt_tokens": 151
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 2,
+    "user_message": "Mình đang quan tâm nhiều đến Python, AI agent và benchmark memory.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 245
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 3,
+    "user_message": "Mình hay dùng ví dụ thực tế từ startup hoặc side project.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 314
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 4,
+    "user_message": "Mình vẫn muốn câu trả lời ngắn và có cấu trúc.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 380
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 5,
+    "user_message": "Hôm qua mình viết thêm test cho User.md read write edit.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 449
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 6,
+    "user_message": "Mình cũng đang nghĩ về chuyện memory file phình to theo thời gian.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 520
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 7,
+    "user_message": "Nếu phải đánh đổi thì mình ưu tiên recall đúng hơn là câu văn quá hoa mỹ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 593
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 8,
+    "user_message": "Bạn thử ghi nhớ thêm ưu tiên này nhé.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 55,
+    "prompt_tokens": 657
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-05",
+    "turn_index": 9,
+    "user_message": "Lát nữa mình sẽ quay lại hỏi về nghề nghiệp hiện tại.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: quá lan man, hãy trả lời ngắn gọn khi có thể\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 78,
+    "prompt_tokens": 725
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-05",
+    "question": "Bạn biết DũngCT là ai không? Hãy nhắc ngắn gọn tên và mối quan tâm chính của mình.",
+    "expected_contains": [
+      "DũngCT",
+      "Python",
+      "AI"
+    ],
+    "agent_answer": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer cho startup AI, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "found": [
+      "DũngCT",
+      "AI"
+    ],
+    "missed": [
+      "Python"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 55,
+    "prompt_tokens": 93
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 0,
+    "user_message": "Mình đính chính thêm một thông tin nghề nghiệp nhé.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer cho startup AI\n- **Response Style**: quá lan man, hãy trả lời ngắn gọn khi có thể\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 78,
+    "prompt_tokens": 85
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 1,
+    "user_message": "Mình không còn làm backend engineer nữa, giờ chuyển sang MLOps engineer.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 52,
+    "prompt_tokens": 178
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 2,
+    "user_message": "Công việc mới vẫn liên quan nhiều tới Python và pipeline cho AI.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 52,
+    "prompt_tokens": 246
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 3,
+    "user_message": "Nhớ ưu tiên thông tin nghề nghiệp mới nếu có ai hỏi lại.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: quá lan man, hãy trả lời ngắn gọn khi có thể\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 75,
+    "prompt_tokens": 312
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 4,
+    "user_message": "Mình vẫn ở Huế, chưa chuyển đi đâu cả.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 52,
+    "prompt_tokens": 396
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 5,
+    "user_message": "Con corgi Bơ dạo này hay phá lúc mình họp online.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: quá lan man, hãy trả lời ngắn gọn khi có thể, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 52,
+    "prompt_tokens": 460
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 6,
+    "user_message": "Mình vẫn muốn style trả lời ngắn gọn, có bullet và ví dụ thực chiến.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn, có bullet và ví dụ thực chiến\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 74,
+    "prompt_tokens": 528
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 7,
+    "user_message": "Tối nay mình sẽ benchmark lại hai agent trên cùng data.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 51,
+    "prompt_tokens": 615
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 8,
+    "user_message": "Nếu nhắc lại nghề nghiệp, đừng nói backend engineer nữa nhé, vì đó là thông tin cũ.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn, có bullet và ví dụ thực chiến\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 74,
+    "prompt_tokens": 686
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-06",
+    "turn_index": 9,
+    "user_message": "Bạn thử nhớ cả correction lẫn thread mở từ các cuộc trước giúp mình.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 51,
+    "prompt_tokens": 777
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-06",
+    "question": "Hiện tại mình làm nghề gì và mình còn ở Huế không?",
+    "expected_contains": [
+      "MLOps engineer",
+      "Huế"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn, có bullet và ví dụ thực chiến\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "Huế"
+    ],
+    "missed": [
+      "MLOps engineer"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 74,
+    "prompt_tokens": 81
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-06",
+    "question": "Nếu phải chọn giữa nghề cũ và nghề mới, nghề hiện tại của mình là gì?",
+    "expected_contains": [
+      "MLOps engineer"
+    ],
+    "agent_answer": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "found": [],
+    "missed": [
+      "MLOps engineer"
+    ],
+    "recall_score": 0.0,
+    "quality_score": 0.30000000000000004,
+    "tokens_used": 51,
+    "prompt_tokens": 172
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 0,
+    "user_message": "Sáng nay mình tiếp tục làm sạch benchmark data.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 51,
+    "prompt_tokens": 80
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 1,
+    "user_message": "Mình muốn mỗi conversation có ít nhất 10 lượt và nghe tự nhiên hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 51,
+    "prompt_tokens": 147
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 2,
+    "user_message": "Mình đang thử thêm các câu hỏi kiểm tra recall chéo phiên.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn, có bullet và ví dụ thực chiến, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 51,
+    "prompt_tokens": 212
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 3,
+    "user_message": "Nếu bạn giải thích, hãy trả lời ngắn gọn và có ví dụ thực tế như mình từng nhắc.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 285
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 4,
+    "user_message": "Mình thấy nhiều agent nhớ sai khi người dùng đính chính thông tin cũ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 355
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 5,
+    "user_message": "Phần này rất giống case nghề nghiệp của mình từ backend sang MLOps.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 76,
+    "prompt_tokens": 424
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 6,
+    "user_message": "Mình cũng đang cân nhắc thêm confidence threshold vào bonus.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 515
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 7,
+    "user_message": "Bạn nhớ là mình ưu tiên benchmark có số liệu rõ ràng.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 581
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 8,
+    "user_message": "Mai mình sẽ trình bày lab này cho nhóm học cùng.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 646
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-07",
+    "turn_index": 9,
+    "user_message": "Lúc đó mình có thể hỏi lại về style trả lời và nơi ở hiện tại.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 76,
+    "prompt_tokens": 714
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-07",
+    "question": "Mình thích style trả lời như thế nào và hiện đang ở đâu?",
+    "expected_contains": [
+      "ngắn gọn",
+      "Huế"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "ngắn gọn",
+      "Huế"
+    ],
+    "missed": [],
+    "recall_score": 1.0,
+    "quality_score": 1.0,
+    "tokens_used": 76,
+    "prompt_tokens": 85
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 0,
+    "user_message": "Hôm nay mình làm việc ở quán cà phê quen gần sông Hương.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 85
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 1,
+    "user_message": "Mình vẫn uống cà phê sữa đá nhưng đang cố giảm xuống còn một ly mỗi ngày.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 156
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 2,
+    "user_message": "Buổi trưa mình ăn mì Quảng và thấy đúng là món ruột.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 222
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 3,
+    "user_message": "Chiều nay mình sẽ viết phần reflection cho sinh viên.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 288
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 4,
+    "user_message": "Mình muốn nhấn mạnh trade-off giữa recall và token cost.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 355
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 5,
+    "user_message": "Nếu nói về memory file, hãy nhớ nó có thể tăng trưởng theo thời gian.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 425
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 6,
+    "user_message": "Mình cũng muốn ví dụ gắn với công việc MLOps hiện tại cho gần thực tế.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 495
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 7,
+    "user_message": "Bạn nhớ là mình đang ở Huế để dùng ví dụ địa phương nếu cần.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 563
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 8,
+    "user_message": "Con Bơ hôm nay lại ngủ cạnh bàn làm việc của mình.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 628
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-08",
+    "turn_index": 9,
+    "user_message": "Mình sẽ còn hỏi lại về đồ uống và món ăn yêu thích.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 76,
+    "prompt_tokens": 693
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-08",
+    "question": "Đồ uống và món ăn yêu thích của mình là gì?",
+    "expected_contains": [
+      "cà phê sữa đá",
+      "mì Quảng"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "cà phê sữa đá"
+    ],
+    "missed": [
+      "mì Quảng"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 76,
+    "prompt_tokens": 81
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-08",
+    "question": "Hiện tại mình đang ở đâu và mình nuôi con gì?",
+    "expected_contains": [
+      "Huế",
+      "corgi"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: backend engineer nữa\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "Huế",
+      "corgi"
+    ],
+    "missed": [],
+    "recall_score": 1.0,
+    "quality_score": 1.0,
+    "tokens_used": 76,
+    "prompt_tokens": 168
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 0,
+    "user_message": "Mình vừa thử benchmark lần đầu và thấy baseline quên mình rất nhanh.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 88
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 1,
+    "user_message": "Điều đó đúng như mong đợi vì nó chỉ có within-session memory.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 156
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 2,
+    "user_message": "Full agent thì khá hơn nhưng mình muốn câu trả lời còn tự nhiên hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 226
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 3,
+    "user_message": "Mình nghĩ có thể thêm entity extraction ở mức bonus.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 292
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 4,
+    "user_message": "Cái khó là đừng làm User.md quá dài và lộn xộn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 356
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 5,
+    "user_message": "Mình thích markdown vì dễ mở và dễ giải thích cho sinh viên.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: backend engineer nữa, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 53,
+    "prompt_tokens": 424
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 6,
+    "user_message": "Bạn nhớ là mình làm MLOps engineer chứ không còn là backend engineer nữa nhé.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 505
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 7,
+    "user_message": "Mình vẫn thích Python, AI ứng dụng và cách trình bày có ví dụ thực chiến.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 585
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 8,
+    "user_message": "Nếu tóm tắt mình, hãy nhắc đúng các ý chính đó.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 85,
+    "prompt_tokens": 658
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-09",
+    "turn_index": 9,
+    "user_message": "Sau cuộc này mình sẽ hỏi một câu recall tổng hợp.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 755
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-09",
+    "question": "Tóm tắt ngắn về mình: tên, nghề nghiệp hiện tại và hai mối quan tâm kỹ thuật chính.",
+    "expected_contains": [
+      "DũngCT",
+      "MLOps engineer",
+      "Python",
+      "AI"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "DũngCT",
+      "MLOps engineer"
+    ],
+    "missed": [
+      "Python",
+      "AI"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.7,
+    "tokens_used": 85,
+    "prompt_tokens": 100
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 0,
+    "user_message": "Đây là cuộc cuối trong benchmark mẫu.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 89
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 1,
+    "user_message": "Mình muốn kiểm tra xem agent có giữ được thông tin ổn định sau nhiều phiên không.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 171
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 2,
+    "user_message": "Thông tin ổn định gồm tên, nghề nghiệp mới, nơi ở hiện tại, đồ uống yêu thích và style trả lời.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 85,
+    "prompt_tokens": 256
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 3,
+    "user_message": "Nếu có thông tin cũ mâu thuẫn thì phải ưu tiên bản đính chính mới hơn.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 358
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 4,
+    "user_message": "Mình nghĩ đây là phần sinh viên học được nhiều nhất từ lab.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 434
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 5,
+    "user_message": "Sau benchmark mình sẽ yêu cầu các bạn tự phản tư về memory decay.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 512
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 6,
+    "user_message": "Nếu sau này mình có nhắc lại Đà Nẵng như ví dụ cũ thì đừng lấy nó làm nơi ở hiện tại của bộ benchmark này nhé.",
+    "agent_response": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "tokens_used": 85,
+    "prompt_tokens": 601
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 7,
+    "user_message": "Mình cũng muốn họ thấy file memory tăng trưởng là chi phí thật.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 701
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 8,
+    "user_message": "Con Bơ chắc vẫn sẽ được nhớ vì nó quá dễ thương và dễ thành ví dụ.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 779
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 9,
+    "user_message": "Bạn chuẩn bị tinh thần cho câu recall tổng hợp nhé.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 853
+  },
+  {
+    "type": "turn",
+    "conv_id": "conv-10",
+    "turn_index": 10,
+    "user_message": "Xong cuộc này thì benchmark coi như đủ bộ dữ liệu 10 phiên.",
+    "agent_response": "[Advanced] Đã nhận và ghi nhớ. Thông tin hiện tại: Name: DũngCT, Location: Huế, Profession: MLOps engineer chứ không còn là backend engineer nữa nhé, Response Style: ngắn gọn và có ví dụ thực tế như mình từng nhắc, Favorite Drink: là cà phê sữa đá.",
+    "tokens_used": 62,
+    "prompt_tokens": 929
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-10",
+    "question": "Nhắc lại giúp mình: tên, nơi ở hiện tại, nghề nghiệp hiện tại, đồ uống yêu thích và style trả lời mình thích.",
+    "expected_contains": [
+      "DũngCT",
+      "Huế",
+      "MLOps engineer",
+      "cà phê sữa đá",
+      "ngắn gọn"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: của mình là gì và mình nuôi con gì\n- **Pet**: corgi tên Bơ",
+    "found": [
+      "DũngCT",
+      "Huế",
+      "MLOps engineer",
+      "cà phê sữa đá",
+      "ngắn gọn"
+    ],
+    "missed": [],
+    "recall_score": 1.0,
+    "quality_score": 1.0,
+    "tokens_used": 85,
+    "prompt_tokens": 107
+  },
+  {
+    "type": "recall",
+    "conv_id": "conv-10",
+    "question": "Nhắc lại giúp mình: tên, món ăn yêu thích và mình nuôi con gì.",
+    "expected_contains": [
+      "DũngCT",
+      "mì Quảng",
+      "corgi"
+    ],
+    "agent_answer": "[Advanced] Dựa trên thông tin đã lưu:\n- **Name**: DũngCT\n- **Location**: Huế\n- **Profession**: MLOps engineer chứ không còn là backend engineer nữa nhé\n- **Response Style**: ngắn gọn và có ví dụ thực tế như mình từng nhắc\n- **Favorite Drink**: là cà phê sữa đá\n- **Favorite Food**: và mình nuôi con gì\n- **Pet**: gì",
+    "found": [
+      "DũngCT"
+    ],
+    "missed": [
+      "mì Quảng",
+      "corgi"
+    ],
+    "recall_score": 0.5,
+    "quality_score": 0.6000000000000001,
+    "tokens_used": 78,
+    "prompt_tokens": 201
+  }
+]
